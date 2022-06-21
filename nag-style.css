@@ -1,0 +1,159 @@
+.head
+{
+    /* background: linear-gradient(rgba(12, 2, 2, 0.2) ,rgba(12, 2, 2, 0.2)); */
+    background-color: rgba(12, 2, 2, 0.4);
+    height: 120px;
+    margin: -10px -10px 0 -10px ;
+    /* border-bottom: 5px double black; */
+}
+.title
+{
+    color: white;
+    margin-left: 1cm;
+    display: inline-block;
+    font-family: "Rubik Moonrocks";
+    /* font-family: "Tangerine"; */
+    font-size: xx-large;
+    letter-spacing: 0.5mm;
+    word-spacing: 1mm;
+    text-decoration: line-through rgba(255, 0, 0, 0.5);
+    /* text-decoration-thickness: 0.7mm; */
+    font-weight: lighter;
+    text-shadow: 3px 5px black;
+}
+.icons
+{   
+
+    /* color: white; */
+    display: flex;
+    float: right;
+    /* text-align: right; */
+    margin: 10px;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+#options
+{
+    background-color: darkgray;
+}
+#ppp:hover
+{
+    color: black;
+    background: white;
+}
+body
+{
+    background-image: url(nag.jpg);
+    background-size: 100%;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.info
+{
+    font-size: 20px;
+    color: burlywood;
+    line-height: 1.5;
+}
+.about
+{
+    background-color: rgba(231, 231, 231, 0.7);
+    /* background-color: white;  */
+    height: 100px;
+    text-align: center;
+    padding-top: 1.5cm;
+    font-size: 25px;
+    margin: 0 -10px 10px -10px;
+    
+}
+
+.pplmain
+ {
+    height: 800px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(29, 36, 36,0.4);
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-top: 0.8cm;
+    padding-bottom: 0.8cm;
+ }
+
+ .ppl
+ {
+     background-color: rgba(37, 38, 43, 0.5);
+     line-height: 50px;
+     margin: 10px;
+     width: 400px;
+     text-align: center;
+ }
+ #ppl1
+ {
+    background-image: url(appa.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ #ppl2
+ {
+    background-image: url(amma.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ #ppl3
+ {
+    background-image: url(pari1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ .two
+{
+    display: flex;
+}
+ .conclusion1
+{
+    background-color: rgba(255, 255, 255,0.4);
+    margin: -4px 0 -20px -10px;
+    width: 3000px;
+    padding: 15px 0 0 40px;
+    font-size: larger;
+}
+ .conclusion2
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 300px;
+    background-position: center;
+    background-size: 50%;
+    margin: -4px -10px -20px 0;
+    width: 3000px;
+    padding: 10px;
+}
+
+/*
+.head:hover{
+    color: black;
+    background: white;
+}
+*/
+
+#service
+{
+    color: white;
+    display: block;
+    height: 100px;
+    background-color: black;
+    margin: 20px -10px -20px -10px;
+    padding: 80px 50px 0 1000px;
+    font-size: larger;
+
+}
+.list
+{
+    padding: 0 0 0 5cm;
+    line-height: 1cm;
+}
+.name
+{
+    color: #2690d4;
+}
